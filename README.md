@@ -1,6 +1,6 @@
 # 🎮 Tic Tac Toe with React
 
-A fun and interactive Tic Tac Toe game built with React!
+A fun and interactive 2 Player Tic Tac Toe game built with React!
 
 ## 🚀 Features
 
