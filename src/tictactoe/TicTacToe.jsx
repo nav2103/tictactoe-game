@@ -72,7 +72,7 @@ const TicTacToe = () => {
     setLock(false);
     setData(["", "", "", "", "", "", "", "", ""]);
     setCount(0);
-    titleRef.current.innerHTML = "Tic Tac Toe using <span>React</span>";
+    titleRef.current.innerHTML = "Tic Tac Toe and <span>Fun</span>";
     boxRefs.forEach((ref) => {
       if (ref.current) {
         ref.current.innerHTML = "";
@@ -83,7 +83,7 @@ const TicTacToe = () => {
   return (
     <div className="container">
       <h1 className="title" ref={titleRef}>
-        Tic Tac Toe using <span>React</span>
+        Tic Tac Toe and <span>Fun</span>
       </h1>
       <div className="board">
         <div
